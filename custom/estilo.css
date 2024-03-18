@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f2ec;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    min-height: 20%;
+    background-color: #252217;
+    z-index: -1;
+}
+
+#cabecalho{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho figure{
+    margin-top: 1.5%;
+    margin-left: 7%;
+}
+
+#cabecalho nav{
+    display: flex;
+    margin-top: 1.5%;
+    margin-right: 20%;
+}
+
+#cabecalho ul{
+    display: flex;
+}
+
+#cabecalho li{
+    padding: 2%;
+    list-style: none;
+}
+
+#cabecalho a{
+    color: #875c14;
+    text-decoration: none;
+}
+
+#cabecalho a:hover{
+    color: #b87d17;
+}
+
+section{
+    float: left;
+    width: 60%;
+}
+
+#museu figure{
+    margin: 5em 0em 0em 8em;
+    width: 100%;
+}
+
+.area_postagem{
+    display: flex;
+    width: 60%;
+    margin-left: 7%;
+    color: #875c14;
+}
+
+.postagem{
+    display: block;
+    width: 50%;
+    padding: 1.5%;
+}
+
+.postagem iframe{
+    width: 100%;
+    height: 40%;
+}
+
+.postagem h4{
+    margin-bottom: 1.5%;
+}
+
+.postagem li{
+    padding-left: 20px;
+}
+
+.postagem a{
+    text-decoration: none;
+    color: #875c14;
+}
+.postagem a:hover{
+    color: #b87d17;
+}
+
+aside{
+    float: right;
+    width: 40%;
+}
+
+aside img{
+    width: 100%;
+}
