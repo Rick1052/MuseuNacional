@@ -52,17 +52,17 @@ header{
 
 section{
     float: left;
-    width: 60%;
+    width: 55%;
 }
 
-#museu figure{
+#museu img{
     margin: 5em 0em 0em 8em;
     width: 100%;
 }
 
 .area_postagem{
     display: flex;
-    width: 60%;
+    width: 55%;
     margin-left: 7%;
     color: #875c14;
 }
@@ -96,9 +96,75 @@ section{
 
 aside{
     float: right;
-    width: 40%;
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+    margin-top: -36%;
 }
 
-aside img{
-    width: 100%;
+#depoimento img{
+    width: 90%;
 }
+
+#dividir{
+    width: 90%;
+    min-height: 20px;
+    margin-top: -2px;
+    background-color: #ebe7dd;
+}
+
+#visita{
+    background-color: #cdc8b1;
+    width: 90%;
+    padding: 5%;
+}
+
+#visita h4{
+    color: #875c14;
+}
+
+#visita input{
+    border: solid 1px #875c14;
+}
+
+#visita #data{
+    width: 30%;
+}
+
+#visita #qntd{
+    width: 10%;
+}
+
+#visita div{
+    display: flex;
+    padding: 2%;
+}
+
+#visita button{
+    width: 100%; 
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #e9e9e9;
+    background-color: #9b9271;
+    border: none;
+}
+
+#galeria{
+    width: 90%;
+    background-color: #ebe7dd;
+    padding: 5%;
+}
+
+#galeria h4{
+    color: #875c14;
+}
+
+.fotos{
+    display: absolute;
+}
+
+/* .fotos img{
+
+} */
+
