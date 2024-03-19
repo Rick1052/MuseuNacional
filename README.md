@@ -1,0 +1,1 @@
+Página produzida na proporção 1920x953 - 100%

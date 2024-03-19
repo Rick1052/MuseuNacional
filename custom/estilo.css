@@ -75,22 +75,23 @@ section{
 
 .postagem iframe{
     width: 100%;
-    height: 40%;
+    height: 250px;
 }
 
 .postagem h4{
     margin-bottom: 1.5%;
+    color: #289114;
 }
 
 .postagem li{
     padding-left: 20px;
 }
 
-.postagem a{
+a{
     text-decoration: none;
     color: #875c14;
 }
-.postagem a:hover{
+a:hover{
     color: #b87d17;
 }
 
@@ -99,7 +100,7 @@ aside{
     width: 30%;
     height: 100%;
     margin-right: 5%;
-    margin-top: -36%;
+    margin-top: -41.3%;
 }
 
 #depoimento img{
@@ -120,7 +121,7 @@ aside{
 }
 
 #visita h4{
-    color: #875c14;
+    color: #289114;
 }
 
 #visita input{
@@ -150,6 +151,15 @@ aside{
     border: none;
 }
 
+#visita button:hover{
+    background-color: #9b894a;
+    cursor: pointer;
+}
+
+#dados{
+    gap: 5px;
+}
+
 #galeria{
     width: 90%;
     background-color: #ebe7dd;
@@ -157,14 +167,59 @@ aside{
 }
 
 #galeria h4{
+    color: #289114;
+}
+
+#galeriaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.fundo img{
+    width: 100%;
+}
+
+.imagem figure{
+    margin-top: -135px;
+}
+
+.imagem img{
+    width: 100%;
+    padding: 13%;
+}
+
+#divRodape{
+    display: flex;
+    float: inline-end;
+    width: 100%;
+    justify-content: center;
+}
+
+footer{
+    display: block;
+    float:inline-end;
+    width: 100%;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    display: inline;
+    padding: 20px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+}
+
+footer span{
     color: #875c14;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-.fotos{
-    display: absolute;
-}
-
-/* .fotos img{
-
-} */
-
